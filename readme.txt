@@ -1,0 +1,1 @@
+It is a recommendation project based on user reviews
