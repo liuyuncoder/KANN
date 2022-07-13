@@ -40,9 +40,9 @@ KANN is proposed to predict ratings and provide knowledge-level explanations by 
   - KANN_multi_main.py: the main implementation by using multiple GPUs based on tf.distribute.
   - MultiHeadAttention.py: KANN's multi-head parallel processing.
 ## Running the code
-### for one GPU
+### For one GPU:
 - cd src
 - python KANN_main.py
-### for multiple GPUs
+### For multiple GPUs:
 - cd src
 - python KANN_multi_main.py
