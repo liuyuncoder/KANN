@@ -8,8 +8,11 @@ KANN is proposed to predict ratings and provide knowledge-level explanations by 
 - numpy
 - scipy
 ## Files in the folder
-- data
-  - amazon
-    -10core
+- data/
+  - amazon/: the dataset of Amazon movies & TV
+    -10core/: the preprocessed dataset with 10-core.
+      - amazon.para:
+    - entity_emb50_concat_mean.bin: 
+    
 - output
 - src
