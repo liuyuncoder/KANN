@@ -10,9 +10,11 @@ KANN is proposed to predict ratings and provide knowledge-level explanations by 
 ## Files in the folder
 - data/
   - amazon/: the dataset of Amazon movies & TV
-    -10core/: the preprocessed dataset with 10-core.
+    - entity_emb50_concat_mean.bin: the context knowledge embeddings of review entities.
+    - entity_oriemb50.bin: the knowledge embeddings of review entities.
+    - 10core/: the preprocessed dataset with 10-core.
       - amazon.para:
-    - entity_emb50_concat_mean.bin: 
+    
     
 - output
 - src
