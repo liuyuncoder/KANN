@@ -41,7 +41,7 @@ class KA(tf.keras.Model):
 
     def call(self, u_batch, i_batch, training, uid, iid, enc_padding_mask, dec_padding_mask):
 
-        data_dir = "../data/amazon"
+        data_dir = "../data/imdb"
         tri50_dir = os.path.join(data_dir, 'entity_emb50_concat_mean.bin')
         re_vec50 = np.memmap(tri50_dir, dtype='float32', mode='r')
         column_num50 = self.d_model*3
