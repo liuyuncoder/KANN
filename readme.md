@@ -50,6 +50,17 @@ KANN is proposed to predict ratings and provide knowledge-level explanations by 
   - MultiHeadAttention.py: KANN's multi-head parallel processing;
   - build_dataset.py: the second step of preprocessing the raw dataset;
   - read_ratings.py: the first step of preprocessing the raw dataset.
+## The description of datasets
+- amazon.csv
+  - user_id: user ids.
+  - item_id: item ids.
+  - ratings: ratings from users to items.
+  - reviews: ids of review entities.
+- imdb.csv
+  - user_id: user ids.
+  - item_id: item ids.
+  - ratings: ratings from users to items.
+  - reviews: ids of review entities.
 ## Running the code
 ### For one GPU:
 - cd src
