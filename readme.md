@@ -8,7 +8,7 @@ This repository is the implementation of The Knowledge-aware Attentional Neural 
   year={2022},
   publisher={Springer}
 }
-
+```
 
 KANN is proposed to predict ratings and provide knowledge-level explanations by capturing understandable interactions between users and items at the knowledge level.
 ## Environments
