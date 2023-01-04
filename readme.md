@@ -1,6 +1,7 @@
 # KANN
 This repository is the implementation of The Knowledge-aware Attentional Neural Network for Movie Recommendation (KANN), if you find the code or data is useful, please cite our work:
-```@article{liu2022knowledge,
+```
+@article{liu2022knowledge,
   title={Knowledge-aware attentional neural network for review-based movie recommendation with explanations},
   author={Liu, Yun and Miyazaki, Jun},
   journal={Neural Computing and Applications},
