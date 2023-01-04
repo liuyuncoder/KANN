@@ -1,15 +1,5 @@
 # KANN
-This repository is the implementation of The Knowledge-aware Attentional Neural Network for Movie Recommendation (KANN), if you find the code or data is useful, please cite our work:
-```
-@article{liu2022knowledge,
-  title={Knowledge-aware attentional neural network for review-based movie recommendation with explanations},
-  author={Liu, Yun and Miyazaki, Jun},
-  journal={Neural Computing and Applications},
-  pages={1--19},
-  year={2022},
-  publisher={Springer}
-}
-```
+This repository is the implementation of The Knowledge-aware Attentional Neural Network for Movie Recommendation (KANN).
 
 KANN is proposed to predict ratings and provide knowledge-level explanations by capturing understandable interactions between users and items at the knowledge level.
 ## Environments
@@ -82,3 +72,15 @@ KANN is proposed to predict ratings and provide knowledge-level explanations by 
 - python read_rating.py
 - python build_dataset.py
 - python KANN_multi_main.py
+## Reference
+if you find the code or data is useful, please cite our work:
+```
+@article{liu2022knowledge,
+  title={Knowledge-aware attentional neural network for review-based movie recommendation with explanations},
+  author={Liu, Yun and Miyazaki, Jun},
+  journal={Neural Computing and Applications},
+  pages={1--19},
+  year={2022},
+  publisher={Springer}
+}
+```
